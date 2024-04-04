@@ -4,31 +4,35 @@
 ==================================
 */
 
-.cards__item {
-  --items: 4;
-}
-.cards__inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cards {
+  &__item {
+    --items: 4;
+  }
 
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  background: var(--second-bg-color);
-  margin-bottom: 30px;
-}
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
 
-.cards__title {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.cards__description {
-  color: var(--descr-color);
-  line-height: 1.71;
-  letter-spacing: 0.42px;
+    background: var(--second-bg-color);
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    color: var(--descr-color);
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+  }
 }
